@@ -99,6 +99,13 @@ return [
     "contact_title" => "Let's get in touch!",
     "contact_text" => "If you want to leverage my skillset for your company, invest in new digital ideas, or just have a chat about the latest news in the tech or product world, drop me a message and I'll get back to you!",
     "contact_title2" => "Drop me a message!",
+    "enter_name" => "Enter name",
+    "enter_email" => "Enter e-mail",
+    "enter_message" => "Message",
+    "send_message" => "Send message",
+    "not_sent" => "Message could not be sent!",
+    "retry" => "Retry or contact me via email if the problem persists: " . getenv("EMAIL_ON_SITE"),
+    "sent" => "<BR /><BR />Thank you! <BR />The message is sent successfully. <BR /><BR /><BR />",
 
     "location" => "Location",
     "address" => "I live in the Netherlands <BR />but active in EMEA & NAM",

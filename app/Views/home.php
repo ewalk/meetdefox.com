@@ -538,16 +538,41 @@
             <div class="contact text-left">
                 <div class="form">
                     <!--<h6 class="subtitle">Available 24/7</h6>-->
-                    <h6 class="section-title mb-4"><?= lang('Messages.contact_title2') ?></h6>
-                    <form action="" method="post">
+                    <?php
+                        if(!$is_email_sent) {
+                    ?>
+                        <h6 class="section-title mb-4"><?= lang('Messages.contact_title2') ?></h6>
+                    <?php
+                        }
+                        else if($is_email_sent == 2) { //successful
+                    ?>
+                        <p style="color:#F85C70"><?= lang("Messages.not_sent") ?></p><p><?= lang("Messages.retry") ?></p>
+                    <?php
+                        }
+                    ?>
+                    <?php
+                        if(!$is_email_sent || $is_email_sent == 2) {
+                    ?>                    
+                    <form action="<?= base_url() ?>" method="post">
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" placeholder="<?= lang("Messages.enter_name") ?>" required>
                         </div>
                         <div class="form-group">
-                            <textarea name="contact-message" id="message" name="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="<?= lang("Messages.enter_email") ?>" required>
+                        </div>                        
+                        <div class="form-group">
+                            <textarea name="contact-message" id="message" name="message" cols="30" rows="5" class="form-control" placeholder="<?= lang("Messages.enter_message") ?>"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
+                        <button type="submit" class="btn btn-primary btn-block rounded w-lg"><?= lang("Messages.send_message") ?></button>
                     </form>
+                    <?php
+                        }
+                        else if($is_email_sent == 1) { //successful
+                    ?>
+                            <p style="color:#20c997"><?= lang("Messages.sent") ?></p>
+                    <?php
+                        }
+                    ?>
                 </div>
                 <div class="contact-infos">
                     <div class="item">
@@ -561,7 +586,7 @@
                         <i class="ti-email"></i>
                         <div class="mb-0">
                             <h5><?= lang('Messages.email') ?></h5>
-                            <p>me@meetdefox.com</p>
+                            <p><?= getenv("EMAIL_ON_SITE") ?></p>
                         </div>
                     </div>
                 </div>                  

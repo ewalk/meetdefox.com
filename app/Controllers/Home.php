@@ -4,12 +4,12 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index(): string
+    public function index($email_sent = 0): string
     {
         $language = \Config\Services::language();
         $language->setLocale('en'); // Set the desired language, e.g., 'en'
 
-        return view('home');
+        return view('home', array("is_email_sent" => $email_sent));
     }
 
     public function mail()
@@ -21,19 +21,20 @@ class Home extends BaseController
         $request = \Config\Services::request();
         $message = $request->getPost('message');
         $email_sent = $request->getPost('email');
+        $name_sent = $request->getPost('name');
         $emailTo = getEnv("EMAIL");
 
         // Configure email settings
-        $email->setFrom('your-email@example.com', 'Meet de Fox');
+        $email->setFrom('me@meetdefox.com', 'Meet de Fox');
         $email->setTo($emailTo);
-        $email->setSubject('New message');
-        $email->setMessage("From: " . $email_sent . " \r\n" . $message);
+        $email->setSubject('New message from ' . $name_sent);
+        $email->setMessage("From: " . $email_sent . " \r\nName: " . $name_sent  . " \r\n" . $message);
 
         // Send the email
         if ($email->send()) {
-            return 'Email successfully sent';
+            return redirect()->to(base_url("/1#contact"));
         } else {
-            return 'Failed to send email: ' . $email->printDebugger(['headers']);
+            return redirect()->to(base_url("/2#contact"));
         }
     }
 }

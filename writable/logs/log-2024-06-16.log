@@ -1,0 +1,317 @@
+ERROR - 2024-06-16 11:06:50 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: fwfew@dwd...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:06:50 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:06:50 --> 
+ERROR - 2024-06-16 11:07:31 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: fwfew@dwd...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:07:31 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:07:31 --> 
+CRITICAL - 2024-06-16 11:07:31 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost/defox.ai/public/2" cannot be found.
+[Method: POST, Route: /]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/defox.ai/public/2')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(37): redirect('http://localhost/defox.ai/public/2')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mail()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-16 11:09:36 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: fwfew@dwd...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:09:36 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:09:36 --> 
+CRITICAL - 2024-06-16 11:09:36 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost/defox.ai/public/home/2" cannot be found.
+[Method: POST, Route: /]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/defox.ai/public/home/2')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(37): redirect('http://localhost/defox.ai/public/home/2')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mail()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-16 11:10:08 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: fwfew@dwd...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:10:08 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:10:08 --> 
+CRITICAL - 2024-06-16 11:10:08 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost/defox.ai/public/home/2" cannot be found.
+[Method: POST, Route: /]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/defox.ai/public/home/2')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(37): redirect('http://localhost/defox.ai/public/home/2')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mail()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-16 11:10:18 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: fwfew@dwd...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:10:18 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:10:18 --> 
+CRITICAL - 2024-06-16 11:10:18 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost/defox.ai/public/" cannot be found.
+[Method: POST, Route: /]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/defox.ai/public/')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(37): redirect('http://localhost/defox.ai/public/')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->mail()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-16 11:11:35 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: fwfew@dwd...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:11:35 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:11:35 --> 
+ERROR - 2024-06-16 11:11:48 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: fwfew@dwd...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:11:48 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:11:48 --> 
+ERROR - 2024-06-16 11:12:07 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: fwfew@dwd...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:12:07 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:12:07 --> 
+ERROR - 2024-06-16 11:12:24 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: wfewfew@d...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:12:24 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:12:24 --> 
+ERROR - 2024-06-16 11:13:06 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: wfewfew@d...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:13:06 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:13:06 --> 
+ERROR - 2024-06-16 11:13:21 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: wfewfew@d...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:13:21 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:13:21 --> 
+ERROR - 2024-06-16 11:14:16 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: wfewfew@d...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:14:16 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:14:16 --> 
+ERROR - 2024-06-16 11:14:58 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: fewfwe@de...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:14:58 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:14:58 --> 
+CRITICAL - 2024-06-16 11:15:43 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: 2]
+in APPPATH\Controllers\Home.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-16 11:27:28 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: fewfew@de...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:27:28 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:27:28 --> 
+ERROR - 2024-06-16 11:29:52 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: cvwswewq@...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:29:52 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:29:52 --> 
+ERROR - 2024-06-16 11:29:59 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\meetdefox.com\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1762): mail('fouad.amiri@gma...', '=?UTF-8?Q?New=2...', 'From: wfewfwe@d...', 'Date: Sun, 16 J...', '-f me@meetdefox...')
+#2 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\meetdefox.com\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\meetdefox.com\app\Controllers\Home.php(34): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(933): App\Controllers\Home->mail()
+#6 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\meetdefox.com\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\meetdefox.com\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\meetdefox.com\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\meetdefox.com\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+ERROR - 2024-06-16 11:29:59 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-06-16 11:29:59 --> 
+CRITICAL - 2024-06-16 11:30:26 --> ErrorException: Constant expression contains invalid operations
+[Method: POST, Route: /]
+in APPPATH\Config\Email.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
