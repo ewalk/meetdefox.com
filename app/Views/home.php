@@ -323,7 +323,15 @@
                                 <h5><?= lang("Messages.redbull_title") ?></h5>
                             </div>                              
                         </div>
-                    </div>                                 
+                    </div> 
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/tetrapak.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5><?= lang("Messages.tetra_title") ?></h5>
+                            </div>                              
+                        </div>
+                    </div>                                                     
                 </div>
                 <div class="col-sm-4">
                     <div class="img-wrapper">
@@ -372,6 +380,15 @@
                         </div>
                     </div>
                     <div class="img-wrapper">
+                        <img src="assets/imgs/lgcooking.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5><?= lang("Messages.lg_title") ?></h5>
+                                <a href="https://www.lg.com/ir/kitchen-appliances" target="_blank"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                    
+                    <div class="img-wrapper">
                         <img src="assets/imgs/gorz2.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
@@ -379,15 +396,7 @@
                                 <a href="https://gorz.ir" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/tetrapak.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5><?= lang("Messages.tetra_title") ?></h5>
-                            </div>                              
-                        </div>
-                    </div>                                                                                    
+                    </div>                                                                                   
                 </div>
             </div>
 
@@ -561,7 +570,7 @@
                             <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="<?= lang("Messages.enter_email") ?>" required>
                         </div>                        
                         <div class="form-group">
-                            <textarea name="contact-message" id="message" name="message" cols="30" rows="5" class="form-control" placeholder="<?= lang("Messages.enter_message") ?>"></textarea>
+                            <textarea id="message_body" name="message_body" cols="30" rows="5" class="form-control" placeholder="<?= lang("Messages.enter_message") ?>"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block rounded w-lg"><?= lang("Messages.send_message") ?></button>
                     </form>
