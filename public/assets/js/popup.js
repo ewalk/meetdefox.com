@@ -6,27 +6,19 @@ document.getElementById("acceptCookie").addEventListener("click", () => {
   //Increment the current time by 1 minute (cookie will expire after 1 minute)
   d.setMinutes(129600 + d.getMinutes());
   //Create Cookie withname = myCookieName, value = thisIsMyCookie and expiry time=1 minute
-  document.cookie = "consentCookie=1; expires = " + d + ";";
+  document.cookie = "consentCookie=consentCookie; expires = " + d + ";";
   //Hide the popup
   popUp.classList.add("hide");
   popUp.classList.remove("show");
 });
 //Check if cookie is already present
 const checkCookie = () => {
-  //Read the cookie and split on "="
-  let input = document.cookie.split("=");
-  let cookie_exist = false;
-  //Check for our cookie
-  input.some((cookie) => {
-    if (cookie == "consentCookie") {
-        //Hide the popup
-        popUp.classList.add("hide");
-        popUp.classList.remove("show");
-        cookie_exist = true;
-        return;
-      } 
-  });
-  if(!cookie_exist) {
+  if (document.cookie.includes("consentCookie")) {
+      //Hide the popup
+      popUp.classList.add("hide");
+      popUp.classList.remove("show");
+  }
+  else {
     //Show the popup
     popUp.classList.add("show");
     popUp.classList.remove("hide");
