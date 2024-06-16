@@ -29,6 +29,7 @@
     <!-- Android Chrome -->
     <link rel="icon" type="image/png" sizes="192x192" href="assets/imgs/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="assets/imgs/favicon/android-chrome-512x512.png">  
+    <?= getenv("TRACKING_TAG") ?>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
