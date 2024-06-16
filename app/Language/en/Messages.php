@@ -109,7 +109,7 @@ return [
     "sent" => "<BR /><BR />Thank you! <BR />The message is sent successfully. <BR /><BR /><BR />",
 
     "location" => "Location",
-    "address" => "I live in the Netherlands <BR />but active in EMEA & NAM",
+    "address" => "I live in the Netherlands <BR />but am active in EMEA & NAM",
     "email" => "E-mail",
 
     "news" => "Blog",
