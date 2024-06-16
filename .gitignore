@@ -1,3 +1,4 @@
-app/Config/App.php
-app/Config/Email.php
+/app/Config/App.php
+/app/Config/Email.php
 .env
+*.log
