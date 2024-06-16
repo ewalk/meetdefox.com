@@ -336,6 +336,14 @@
                         </div>
                     </div>
                     <div class="img-wrapper">
+                        <img src="assets/imgs/tetrapak.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5><?= lang("Messages.tetra_title") ?></h5>
+                            </div>                              
+                        </div>
+                    </div>                      
+                    <div class="img-wrapper">
                         <img src="assets/imgs/gstar.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">

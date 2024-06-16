@@ -88,6 +88,7 @@ return [
     "mr90_title" => "Head of Production & Tech Architect for Mr90 Football Coaching (Web & App), with more than one million players.",
     "gorz_title" => "Head of Production & Tech Architect for Gorz (I & II) Live Strategic Battle, with more than 500,000 players.",
     "cheetozia_title" => "Product Manager and Backend Developer for Cheetozia, an engaging advergame campaign for Cheetos (MENA region) with over 100,000 registrations.",
+    "tetra_title" => "Business Intelligence Analyst & Manager -Big Data, Tetra Pak B2B internal BI dashboards in Iran.",
     "gstar_title" => "Product Lead for G-star RAW Global E-commerce (Web & App), a renowned European fashion retailer",
     "renault_title" => "Product Manager and Backend Developer for Renault Rally, an engaging browser-based advergame campaign for Renault (MENA region) with over 250,000 registrations",
     "denksport_title" => "Head of Products, Global e-commerce for Denksport, a renowned puzzle brand",
