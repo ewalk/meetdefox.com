@@ -118,8 +118,7 @@
             </div>
         </div>
     </header>
-    <!-- End of Page Header -->
-    
+    <!-- End of Page Header --> 
     <!-- About section -->
     <section id="about" class="section mt-3">
         <div class="container mt-5">
@@ -630,6 +629,16 @@
     </footer> 
     <!-- End of page footer -->
 	
+    <!-- Cookie popup -->    
+    <div id="cookiePopup" class="hide">
+      <img src="assets/imgs/cookie.png" />
+      <p>
+        <?= lang("Messages.cookie_privacy") ?>
+      </p>
+      <button id="acceptCookie">Accept</button>
+    </div>
+    <!-- Script -->
+
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
@@ -638,6 +647,7 @@
 
     <!-- steller js -->
     <script src="assets/js/steller.js?v=<?= $jsVersion ?>"></script>
+    <script src="assets/js/popup.js"></script>
 
 </body>
 </html>

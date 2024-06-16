@@ -113,4 +113,5 @@ return [
     "email" => "E-mail",
 
     "news" => "Blog",
+    "cookie_privacy" => "My website uses a few simple tracking cookies to provide your browsing experience. Let's get a consent before further browsing.",
 ];
