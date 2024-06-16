@@ -309,14 +309,13 @@
                         </div>
                     </div>
                     <div class="img-wrapper">
-                        <img src="assets/imgs/gorz2.jpg" alt="">
+                        <img src="assets/imgs/lufthansa.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5><?= lang("Messages.gorz_title") ?></h5>
-                                <a href="https://gorz.ir" target="_blank"><i class="ti-link"></i></a>
+                                <h5><?= lang("Messages.lufthansa_title") ?></h5>
                             </div>                              
                         </div>
-                    </div>      
+                    </div>                        
                     <div class="img-wrapper">
                         <img src="assets/imgs/redbull.jpg" alt="">
                         <div class="overlay">
@@ -328,21 +327,13 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="img-wrapper">
-                        <img src="assets/imgs/cheetozia.jpg" alt="">
+                        <img src="assets/imgs/cheetozia.png" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5><?= lang("Messages.cheetozia_title") ?></h5>
                             </div>  
                         </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/tetrapak.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5><?= lang("Messages.tetra_title") ?></h5>
-                            </div>                              
-                        </div>
-                    </div>                      
+                    </div>                   
                     <div class="img-wrapper">
                         <img src="assets/imgs/gstar.jpg" alt="">
                         <div class="overlay">
@@ -351,7 +342,16 @@
                                 <a href="https://g-star.com" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
-                    </div>                  
+                    </div>    
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/zula.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5><?= lang("Messages.zula_title") ?></h5>
+                                <a href="https://www.playzula.com/" target="_blank"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                                   
                 </div>
                 <div class="col-sm-4">
                     <div class="img-wrapper">
@@ -370,16 +370,24 @@
                                 <a href="https://denksport.com" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
-                    </div>    
+                    </div>
                     <div class="img-wrapper">
-                        <img src="assets/imgs/zula.jpg" alt="">
+                        <img src="assets/imgs/gorz2.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5><?= lang("Messages.zula_title") ?></h5>
-                                <a href="https://www.playzula.com/" target="_blank"><i class="ti-link"></i></a>
+                                <h5><?= lang("Messages.gorz_title") ?></h5>
+                                <a href="https://gorz.ir" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
-                    </div>                                  
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/tetrapak.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5><?= lang("Messages.tetra_title") ?></h5>
+                            </div>                              
+                        </div>
+                    </div>                                                                                    
                 </div>
             </div>
 
