@@ -91,7 +91,7 @@
                     <a class="social-item" href="https://github.com/ewalk" target="_blank"><i class="ti-github"></i></a>
                     <a class="social-item" href="https://x.com/fouadami" target="_blank"><i class="ti-twitter"></i></a>
                     <a class="social-item adplist" href="https://adplist.org/mentors/fouad-amiri" target="_blank"></a>
-                    <a class="social-item" href="mailto:fouad.amiri@gmail.com" target="_blank"><i class="ti-email"></i></a>
+                    <a class="social-item" href="mailto:<?= getenv("EMAIL_ON_SITE") ?>" target="_blank"><i class="ti-email"></i></a>
                 </div>
             </div>              
             <div class="img-holder">
@@ -625,7 +625,7 @@
                         <a class="social-item" href="https://github.com/ewalk" target="_blank"><i class="ti-github"></i></a>
                         <a class="social-item" href="https://x.com/fouadami" target="_blank"><i class="ti-twitter"></i></a>
                         <a class="social-item adplist" href="https://adplist.org/mentors/fouad-amiri" target="_blank"></a>
-                        <a class="social-item" href="mailto:fouad.amiri@gmail.com" target="_blank"><i class="ti-email"></i></a>
+                        <a class="social-item" href="mailto:<?= getenv("EMAIL_ON_SITE") ?>" target="_blank"><i class="ti-email"></i></a>
                     </div>
                 </div>
             </div>
