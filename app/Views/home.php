@@ -90,6 +90,7 @@
                     <a class="social-item" href="https://www.instagram.com/watdefox/" target="_blank"><i class="ti-instagram"></i></a>
                     <a class="social-item" href="https://github.com/ewalk" target="_blank"><i class="ti-github"></i></a>
                     <a class="social-item" href="https://x.com/fouadami" target="_blank"><i class="ti-twitter"></i></a>
+                    <a class="social-item adplist" href="https://adplist.org/mentors/fouad-amiri" target="_blank"></a>
                     <a class="social-item" href="mailto:fouad.amiri@gmail.com" target="_blank"><i class="ti-email"></i></a>
                 </div>
             </div>              
@@ -124,7 +125,9 @@
         <div class="container mt-5">
             <div class="row text-center text-md-left">
                 <div class="col-md-3">
-                    <img src="assets/imgs/avatar.jpg" alt="" class="img-thumbnail mb-4">
+                    <img src="assets/imgs/fouad/avatar.jpg" alt="" class="img-thumbnail mb-4">
+                    <img src="assets/imgs/fouad/avatar2.jpg" alt="" class="img-thumbnail mb-4 hide-on-mobile">
+                    <img src="assets/imgs/fouad/avatar4.png" alt="" class="img-thumbnail mb-4 hide-on-mobile">
                 </div>
                 <div class="pl-md-4 col-md-9">
                     <h6 class="title"><?= lang('Messages.name') . " " . lang('Messages.lastname') ?></h6>
@@ -621,6 +624,7 @@
                         <a class="social-item" href="https://www.instagram.com/watdefox/" target="_blank"><i class="ti-instagram"></i></a>
                         <a class="social-item" href="https://github.com/ewalk" target="_blank"><i class="ti-github"></i></a>
                         <a class="social-item" href="https://x.com/fouadami" target="_blank"><i class="ti-twitter"></i></a>
+                        <a class="social-item adplist" href="https://adplist.org/mentors/fouad-amiri" target="_blank"></a>
                         <a class="social-item" href="mailto:fouad.amiri@gmail.com" target="_blank"><i class="ti-email"></i></a>
                     </div>
                 </div>

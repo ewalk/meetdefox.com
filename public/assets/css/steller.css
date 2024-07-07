@@ -11031,9 +11031,19 @@ pre {
   text-decoration: none;
 }
 
+.social-item.adplist {
+  background: url("../imgs/adp-list.png") no-repeat center;
+  background-size: 25px;
+}
+
 .socials .social-item:hover {
   background: #ff7a57;
   color: #fff;
+}
+
+.social-item.adplist:hover {
+  background: url("../imgs/adp-list-white.png") #ff7a57 no-repeat center;
+  background-size: 25px;
 }
 
 .btn {
@@ -11444,7 +11454,7 @@ pre {
 }
 
 .page-footer .socials {
-  max-width: 210px;
+  max-width: 260px;
   margin-left: auto;
 }
 
@@ -11703,4 +11713,14 @@ pre {
   visibility: visible;
   bottom: 2em;
   right: 2em;
+}
+
+.hide-on-mobile {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
 }

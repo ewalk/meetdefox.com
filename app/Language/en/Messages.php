@@ -18,11 +18,11 @@ return [
     'companies_title' => "Startups Founded",
     'companies_num' => "2",
     'products_title' => "Products Launched",
-    'products_num' => "53",
+    'products_num' => "40+",
     'features_title' => "Features Delivered",
     'features_num' => "350+",
     'users_title' => "Users Served",
-    'users_num' => "21M",
+    'users_num' => "25M",
 
     "subtitle_whoami" => "Senior Product Manager & entrepreneur, in the intersection of Tech, Design & Business",
     "whoami_text" => "I am Fouad Amiri, a results-oriented and data-driven product leader with over 15 years of experience in driving product growth and leading cross-functional agile teams. <BR /> With a strong background in digital & AI transformation, market expansion, agile methodologies, and innovative development, I specialize in global e-commerce, gaming, CRM, and digital marketing. <BR />My technical expertise spans web development, mobile apps, online gaming, and CRM systems, and I am committed to strategic growth and technological innovation. Explore my portfolio to see how I've optimized performance and delivered impactful solutions across diverse digital platforms.
@@ -109,7 +109,7 @@ return [
     "sent" => "<BR /><BR />Thank you! <BR />The message is sent successfully. <BR /><BR /><BR />",
 
     "location" => "Location",
-    "address" => "I live in the Netherlands <BR />but am active in EMEA & NAM",
+    "address" => "NL, EMEA, NAM",
     "email" => "E-mail",
 
     "news" => "Blog",
