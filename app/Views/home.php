@@ -95,7 +95,7 @@
                 </div>
             </div>              
             <div class="img-holder">
-                <img src="assets/imgs/fouad.png" alt="">
+                <img src="assets/imgs/fouad-min.png" alt="">
             </div>      
         </div>  
 
@@ -328,17 +328,26 @@
                         </div>
                     </div> 
                     <div class="img-wrapper">
-                        <img src="assets/imgs/tetrapak.png" alt="">
+                        <img src="assets/imgs/tetrapak-min.png" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5><?= lang("Messages.tetra_title") ?></h5>
                             </div>                              
                         </div>
-                    </div>                                                     
+                    </div>  
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/gorz2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5><?= lang("Messages.gorz_title") ?></h5>
+                                <a href="https://gorz.ir" target="_blank"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                                                                         
                 </div>
                 <div class="col-sm-4">
                     <div class="img-wrapper">
-                        <img src="assets/imgs/cheetozia.png" alt="">
+                        <img src="assets/imgs/cheetozia-min.png" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5><?= lang("Messages.cheetozia_title") ?></h5>
@@ -354,6 +363,15 @@
                             </div>                              
                         </div>
                     </div>    
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/danone.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5><?= lang("Messages.danone_title") ?></h5>
+                                <a href="https://danone.ir/" target="_blank"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                                   
                     <div class="img-wrapper">
                         <img src="assets/imgs/zula.jpg" alt="">
                         <div class="overlay">
@@ -374,6 +392,14 @@
                         </div>
                     </div>
                     <div class="img-wrapper">
+                        <img src="assets/imgs/arag.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5><?= lang("Messages.arag_title") ?></h5>
+                            </div>                              
+                        </div>
+                    </div>                    
+                    <div class="img-wrapper">
                         <img src="assets/imgs/denksport.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
@@ -390,16 +416,7 @@
                                 <a href="https://www.lg.com/ir/kitchen-appliances" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
-                    </div>                    
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/gorz2.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5><?= lang("Messages.gorz_title") ?></h5>
-                                <a href="https://gorz.ir" target="_blank"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                                                                                   
+                    </div>                                                                                                     
                 </div>
             </div>
 

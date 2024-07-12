@@ -96,6 +96,8 @@ return [
     "redbull_title" => "Producer and backend developer of the red bull stratosphere game, an advergame marketing campaign for the edge of space mission with over 50,000 players.",
     "lufthansa_title" => "Product Manager & BackEnd Developer, Lufthansa Miles & More Loyalty campaign and advergame in Iran, User base growth of +500% reaching 50,000 users.",
     "lg_title" => "Product Owner of LG Cooking E-commerce in MENA; Official Website of LG Kitchen Appliances in Iran.",
+    "danone_title" => "Product Manager of Danone club, a social network and gaming platform aimed at engaging loyal customers of the brand and increasing retention.",
+    "arag_title" => "Consultant in a digital transformation and automation project to reduce paper consumption and increase efficiency of the insurance prolongation process.",
 
     "contact_title" => "Let's get in touch!",
     "contact_text" => "If you want to leverage my skillset for your company, invest in new digital ideas, or just have a chat about the latest news in the tech or product world, drop me a message and I'll get back to you!",
