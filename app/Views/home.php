@@ -66,6 +66,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact"><?= lang('Messages.contact') ?></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://blog.meetdefox.com" target="_blank"><?= lang('Messages.news') ?></a>
+                    </li>                    
                 </ul>
             </div>
         </div>          
