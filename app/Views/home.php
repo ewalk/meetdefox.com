@@ -621,6 +621,14 @@
                             <p><?= getenv("EMAIL_ON_SITE") ?></p>
                         </div>
                     </div>
+                    <BR />
+                    <div class="item">
+                        <i class="ti-info"></i>
+                        <div class="mb-0">
+                            <h5><?= lang('Messages.info') ?></h5>
+                            <p><?= lang('Messages.kvk') ?>: 94665419</p>
+                        </div>
+                    </div>                    
                 </div>                  
             </div>
         </div>  
