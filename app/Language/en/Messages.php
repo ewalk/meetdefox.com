@@ -13,7 +13,7 @@ return [
     'hello_msg' => 'Hello, I am',
     'name' => 'Fouad',
     'lastname' => 'Amiri',
-    'subtitle' => 'Product-led growth advocate, disruptor & entrepreneur',
+    'subtitle' => 'Product-Led Growth Advocate, Innovator & Entrepreneur',
 
     'companies_title' => "Startups Founded",
     'companies_num' => "2",
@@ -92,6 +92,7 @@ My expertise spans industries including global e-commerce, gaming, CRM, and digi
     "gorz_title" => "Head of Production & Tech Architect for Gorz (I & II) Live Strategic Battle, with more than 500,000 players.",
     "cheetozia_title" => "Product Manager and Backend Developer for Cheetozia, an engaging advergame campaign for Cheetos (MENA region) with over 100,000 registrations.",
     "tetra_title" => "Business Intelligence Analyst & Manager -Big Data, Tetra Pak B2B internal BI dashboards in Iran.",
+    "sinjim_title" => "Head of Product for Sinjim. It is a social and multiplayer trivia mobile game developed for the Iranian market with more than 200,000 users.",
     "gstar_title" => "Product Lead for G-star RAW Global E-commerce (Web & App), a renowned European fashion retailer with millions of customers in 50 countries (EU, NAM, SEA).",
     "renault_title" => "Product Manager and Backend Developer for Renault Rally, an engaging browser-based advergame campaign for Renault (MENA region) with over 250,000 registrations.",
     "denksport_title" => "Head of Products, Global e-commerce for Denksport, a renowned puzzle brand with millions of customers in BeNeLux.",

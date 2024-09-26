@@ -330,13 +330,14 @@
                         </div>
                     </div> 
                     <div class="img-wrapper">
-                        <img src="assets/imgs/tetrapak-min.png" alt="">
+                        <img src="assets/imgs/zula.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5><?= lang("Messages.tetra_title") ?></h5>
+                                <h5><?= lang("Messages.zula_title") ?></h5>
+                                <a href="https://www.playzula.com/" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
-                    </div>  
+                    </div>                                   
                     <div class="img-wrapper">
                         <img src="assets/imgs/gorz2.jpg" alt="">
                         <div class="overlay">
@@ -373,16 +374,15 @@
                                 <a href="https://danone.ir/" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
-                    </div>                                   
+                    </div>                             
                     <div class="img-wrapper">
-                        <img src="assets/imgs/zula.jpg" alt="">
+                        <img src="assets/imgs/sinjim.jpg" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5><?= lang("Messages.zula_title") ?></h5>
-                                <a href="https://www.playzula.com/" target="_blank"><i class="ti-link"></i></a>
+                                <h5><?= lang("Messages.sinjim_title") ?></h5>
                             </div>                              
                         </div>
-                    </div>                                   
+                    </div>                            
                 </div>
                 <div class="col-sm-4">
                     <div class="img-wrapper">
@@ -418,7 +418,15 @@
                                 <a href="https://www.lg.com/ir/kitchen-appliances" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
-                    </div>                                                                                                     
+                    </div> 
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/tetrapak-min.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5><?= lang("Messages.tetra_title") ?></h5>
+                            </div>                              
+                        </div>
+                    </div>                                                                                                                          
                 </div>
             </div>
 
