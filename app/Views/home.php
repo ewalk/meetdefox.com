@@ -84,8 +84,7 @@
                 <p><?= lang('Messages.subtitle') ?></p>
 
                 <div class="buttons pt-3">
-                    <!--<button class="btn btn-primary rounded">HIRE ME</button>-->
-                    <button class="btn btn-dark rounded" onclick="window.open('assets/cv/CV_Fouad_Amiri.pdf', '_blank');"><?= lang('Messages.download_cv') ?></button>
+                    
                 </div>      
 
                 <div class="socials mt-4">
@@ -193,7 +192,7 @@
             <h6 class="section-title mb-4"><?= lang('Messages.whyme') ?></h6>
             <p class="mb-5 pb-4"><?= lang("Messages.whyme_desc") ?></p>
 
-            <div class="row text-left">
+            <div class="row text-left">             
                 <div class="col-sm-6">
                     <h6 class="mb-3"><?= lang('Messages.skill1') ?></h6>
                     <div class="progress">
@@ -269,7 +268,7 @@
                 <div class="col-sm-6">
                     <h6 class="mb-3"><?= lang('Messages.skill13') ?></h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
                     </div>
                 </div>                     
                 <div class="col-sm-6">
